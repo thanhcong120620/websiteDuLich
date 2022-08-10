@@ -1,0 +1,441 @@
+body {
+	background-color: #ECF8F0;
+	margin: 0px;}
+* {box-sizing: border-box;}
+
+#panel {
+	float: left;
+	background-color: #C2FAC1;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+}
+
+#panel img {
+	width: auto;
+	height: 30px;
+	margin: 0px 0px 0px 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	display: inline-block;
+	margin: 15px 0px 10px 0px;
+}
+
+li {
+	float: left;
+	top: 10px;
+	border-right: black;
+}
+li a{
+	text-decoration-line: none;
+	color: #121A01;
+	font-size: 7px;
+	font-weight: bold;
+	font-family: "Fira Sans", sans-serif;
+	padding: 5px;
+}
+
+
+li a:hover {
+	color: #086824;
+}
+
+.banner img {
+	position: relative;
+	top: 60px;
+	margin: 0px 0px 50px 0px;
+	width: 100%;
+}
+
+.td {
+	clear: both;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Comfortaa";
+	margin: 25px 20px 20px 10px;
+	text-align: justify;
+}
+
+video {
+	margin: 0px 0px 20px 0px;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.asia {
+	clear: both;
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	padding: 8px;
+	width: 100%;
+}
+.asia img {
+	overflow: auto;
+	width: 50%;
+	height: auto;
+	margin: 0px 10px 10px 0px;
+	float: left;
+}
+.asia p {
+	text-align: justify;
+	font-family: 'Prompt', sans-serif;
+	font-size: 10px;
+	font-weight: none;
+}
+
+
+.baotangtranh {
+	display: inline-block;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 8px;
+}
+.baotangtranh img {
+	float: right;
+	overflow: auto;
+	width: 50%;
+	height: auto;
+	margin: 0px 0px 10px 10px;
+}
+.baotangtranh p {
+	text-align: justify;
+	font-family: 'Prompt', sans-serif;
+	font-size: 10px;
+	font-weight: none;
+}
+
+
+.cauvang {
+	clear: both;
+	width: 100%;
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	padding: 8px;
+}
+.cauvang img {
+
+	width: 100%;
+	height: 300px;
+	margin: 0px 0px 10px 0px;
+}
+.cauvang p {
+	text-align: justify;
+	width: 100%;
+	font-family: 'Prompt', sans-serif;
+	font-size: 15px;
+}
+
+
+
+/*CSS CHO TABLETS*/
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+
+#panel {
+	float: left;
+	background-color: #C2FAC1;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+
+}
+
+#panel img {
+	width: auto;
+	height: 70px;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	display: inline-block;
+	margin: 0px 0px 18px 0px;
+}
+
+li {
+	float: left;
+	top: 10px;
+	border-right: black;
+}
+li a{
+	text-decoration-line: none;
+	color: #121A01;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: "Fira Sans", sans-serif;
+	padding: 10px;
+}
+
+
+li a:hover {
+	color: #F5D448;
+}
+
+.banner img {
+	position: relative;
+	display: block;
+	top: 70px;
+	margin: 0px 0px 50px 0px;
+	width:100%; 
+	height: auto;
+}
+
+.td {
+	clear: both;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
+	padding: 35px 0px 0px 25px;
+	margin: 0px 0px 0px 0px;
+	width:100%; 
+	height: auto;
+}
+
+video {
+	margin: 10px 0px 5px 0px;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+.asia {
+	clear: both;
+	float: left;
+	padding: 25px 25px 25px 25px;
+	margin: 0px;
+	width: 48%;
+}
+.asia img {
+	width: 100%;
+	height: 215px;
+	margin: 0px 0px 10px 0px;
+}
+.asia p {
+	text-align: justify;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	width: 100%;
+}
+
+
+.baotangtranh {
+	float: left;
+	padding: 25px 25px 25px 25px;
+	margin: 0px 0px 0px 0px;
+	width: 48%;
+}
+.baotangtranh img {
+	width: 100%;
+	height: 215px;
+	margin: 0px 0px 10px 10px;
+}
+.baotangtranh p {
+	text-align: justify;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	width: 100%;
+}
+
+
+.cauvang {
+	clear: both;
+	display: inline-block;
+	padding: 25px 25px 25px 25px;
+	margin: 0px;
+	width: 100%;
+}
+.cauvang  img {
+	width: 50%;
+	height: auto;
+	margin: 0px 10px 5px 0px;
+	float: left;
+}
+.cauvang  p {
+	text-align: justify;
+	width: 100%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+}
+
+}
+
+
+/*CSS CHO DESKTOP*/
+@media only screen and (min-width: 992px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 992px) {
+
+#panel {
+	float: left;
+	background-color: #C2FAC1;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+
+}
+
+#panel img {
+	width: auto;
+	height: 70px;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	display: inline-block;
+	margin: 0px 0px 18px 0px;
+}
+
+li {
+	float: left;
+	top: 10px;
+	border-right: solid black;
+}
+li a{
+	text-decoration-line: none;
+	color: #121A01;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: "Fira Sans", sans-serif;
+	padding: 15px;
+}
+
+
+li a:hover {
+	color: #098B07;
+}
+
+.banner img {
+	position: relative;
+	display: block;
+	top: 70px;
+	margin: 0px 0px 50px 0px;
+	width:100%; 
+	height: auto;
+}
+
+.td {
+	clear: both;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
+	padding: 35px 25px 0px 25px;
+	margin: 0px 0px 0px 0px;
+	width:100%; 
+	height: auto;
+}
+
+video {
+	margin: 10px 0px 5px 0px;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+.asia {
+	clear: both;
+	display: block;
+	float: left;
+	padding: 25px 25px 25px 25px;
+	margin: 0px;
+	width: 50%;
+}
+.asia img {
+	width: 50%;
+	height: auto;
+	margin: 0px 20px 10px 0px;
+}
+.asia p {
+	text-align: justify;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	width: 100%;
+}
+
+
+.baotangtranh {
+	clear: both;
+	float: left;
+	padding: 10px 25px 25px 25px;
+	margin: 0px 0px 0px 0px;
+	width: 50%;
+	display: block;
+}
+.baotangtranh img {
+	width: 50%;
+	height: auto;
+	margin: 0px 20px 10px 10px;
+	float: left;
+}
+.baotangtranh p {
+	text-align: justify;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	width: 100%;
+}
+
+
+.cauvang {
+	padding: 25px 25px 25px 25px;
+	margin: 0px;
+	width: 45%;
+}
+.cauvang  img {
+	width: 100%;
+	height: auto;
+	margin: 0px 10px 5px 0px;
+	float: left;
+}
+.cauvang  p {
+	text-align: justify;
+	width: 100%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+}
+
+}
+
+
+
+
+
